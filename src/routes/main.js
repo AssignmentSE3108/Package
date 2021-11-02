@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router()
 
-const mainController = require('../app/controllers/MainController')
+const testController = require('../app/controllers/TestController')
 
-router.get('/:slug', mainController.show)
-router.get('/', mainController.index)
+router.get('/food-list/:slug', testController.show_detal_food)
+router.get('/menu', testController.show_menu)
 
 module.exports = router

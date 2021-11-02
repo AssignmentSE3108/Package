@@ -17,8 +17,8 @@ class SiteController {
     }
 
     //[GET] /search
-    search(req, res) {
-        res.render('search');
+    account(req, res) {
+        res.render('account');
     }
 
     menu(req, res) {

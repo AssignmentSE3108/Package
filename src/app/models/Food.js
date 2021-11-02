@@ -6,8 +6,10 @@ mongoose.plugin(slug)
 
 const Food = new Schema({
     name: String,
-    Description: String,
-    img: String,
+    price: String,
+    type: String,
+    describle: String,
+    image: String,
     slug: { type: String, slug: 'name', unique: true },
     create_at: { type: Date, default: Date.now },
 })
