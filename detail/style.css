@@ -1,0 +1,58 @@
+.row {
+    margin: auto;
+    
+    
+}
+.box-large {
+    background-color: #ddd;
+    padding: 10px 10px;
+    
+}
+
+
+/*Card*/
+.title {
+    padding: 0px;
+    
+}
+
+.box-bottom {
+	margin-top: 10px;
+	display: flex;
+	
+    
+}
+.box-bottom img {
+	width: 100%;
+    
+}
+
+
+/*Summary*/
+.summary {
+	text-align: center;
+    background-color: #a9a9a9;
+    
+}
+.summary p {
+	text-align: justify;
+}
+.summary h3 {
+    text-align: left;
+    color: blue;
+    font-size: 30px;
+}
+.summary h2 {
+	font-weight: normal;
+    color: red;
+}
+
+
+/*Details*/
+.detail {
+    margin-top: 20px;
+    background-color: #808080;
+}
+h3 {
+	font-size: 1.25em;
+}
