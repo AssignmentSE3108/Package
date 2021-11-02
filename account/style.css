@@ -1,0 +1,7 @@
+.account__avt {
+    width: 50%;
+}
+
+.account__change:hover {
+    text-decoration: none;
+}
