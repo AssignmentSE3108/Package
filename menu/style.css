@@ -1,6 +1,7 @@
 html,
 body {
     background-image: url(./images/background.jpg);
+    background-size: cover;
 }
 
 .card {
@@ -8,9 +9,6 @@ body {
     text-align: center;
     border: none;
     transition: all 0.5s;
-    background-color: wheat;
-    background-image: url(./images/background.jpg);
-    background-position: left;
 }
 
 .card:hover {
