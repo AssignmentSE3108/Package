@@ -1,10 +1,6 @@
-.container {
-    background-color: wheat;
-}
-
-.row {
+html,
+body {
     background-image: url(./images/background.jpg);
-    background-position: right;
 }
 
 .card {
@@ -14,7 +10,7 @@
     transition: all 0.5s;
     background-color: wheat;
     background-image: url(./images/background.jpg);
-    background-position: center;
+    background-position: left;
 }
 
 .card:hover {
@@ -37,9 +33,4 @@ aside ul {
 
 aside ul a:hover {
     text-decoration: none;
-}
-
-.page {
-    background-image: url(./images/background.jpg);
-    background-position: center;
 }
