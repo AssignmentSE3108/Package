@@ -39,6 +39,15 @@ a:hover {
     text-decoration: none
 }
 
+.flex-quantity {
+    display: flex;
+}
+.qty-minus {
+    width: 50px;
+}
+.qty-plus {
+    width: 50px;
+}
 .close {
     margin-left: auto;
     font-size: 16px;
