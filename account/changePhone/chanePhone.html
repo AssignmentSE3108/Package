@@ -7,12 +7,13 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div class="container mt-5 mb-5">
+<body class="account__main">
+    <div class="container mt-5 mb-5 account__container">
         <div class="card">
             <div class="card-header">
-                <h3 class="mb-0">Change Email</h3>
+                <h3 class="mb-0">Change Phone Number</h3>
             </div>
             <div class="card-body">
                 <form>
@@ -21,14 +22,13 @@
                         <input type="password" class="form-control" id="inputPasswordOld">
                     </div>
                     <div class="form-group">
-                        <label for="inputEmailNew">New Email</label>
-                        <input type="email" class="form-control" id="inputEmailNew">
-                        <span class="form-text small text-muted">The email must follow the format &ltsth>@&ltsth>.&ltsth></span>
+                        <label for="inputPhoneNew">New Phone Number</label>
+                        <input type="text" class="form-control" id="inputPhoneNew">
                     </div>
                     <div class="form-group">
-                        <label for="inputEmailNewVerify">Verify New Email</label>
-                        <input type="email" class="form-control" id="inputEmailNewVerify" required="">
-                        <span class="form-text small text-muted">To confirm, type the new email again.</span>
+                        <label for="inputPhoneNewVerify">Verify New Phone Number</label>
+                        <input type="text" class="form-control" id="inputPhoneNewVerify" required="">
+                        <span class="form-text small text-muted">To confirm, type the new Phone number again.</span>
                     </div>
                     <div class="form-group d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary btn-lg mr-2">Save</button>

@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div class="container mt-5 mb-5">
+<body class="account__main">
+    <div class="container mt-5 mb-5 account__container">
         <div class="card">
             <div class="card-header">
-                <h3 class="mb-0">Change Password</h3>
+                <h3 class="mb-0">Change Email</h3>
             </div>
             <div class="card-body">
                 <form>
@@ -22,14 +22,14 @@
                         <input type="password" class="form-control" id="inputPasswordOld">
                     </div>
                     <div class="form-group">
-                        <label for="inputPasswordNew">New Password</label>
-                        <input type="password" class="form-control" id="inputPasswordNew">
-                        <span class="form-text small text-muted">The password must be 8-20 characters, and must <em>not</em> contain spaces.</span>
+                        <label for="inputEmailNew">New Email</label>
+                        <input type="email" class="form-control" id="inputEmailNew">
+                        <span class="form-text small text-muted">The email must follow the format &ltsth>@&ltsth>.&ltsth></span>
                     </div>
                     <div class="form-group">
-                        <label for="inputPasswordNewVerify">Verify New Password</label>
-                        <input type="password" class="form-control" id="inputPasswordNewVerify" required="">
-                        <span class="form-text small text-muted">To confirm, type the new password again.</span>
+                        <label for="inputEmailNewVerify">Verify New Email</label>
+                        <input type="email" class="form-control" id="inputEmailNewVerify" required="">
+                        <span class="form-text small text-muted">To confirm, type the new email again.</span>
                     </div>
                     <div class="form-group d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary btn-lg mr-2">Save</button>

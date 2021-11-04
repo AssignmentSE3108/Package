@@ -1,0 +1,8 @@
+.account__main {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+.account__container {
+    max-width: 50%;
+}
