@@ -1,12 +1,15 @@
-.row {
-    margin: auto;
+body {
+    background-image: url(img/background.jpg);
+    background-size:cover;
     
+}
+.row {
+    margin: 50px auto;
+    background-color: white;
     
 }
 .box-large {
-    background-color: #ddd;
-    padding: 10px 10px;
-    
+    padding: 10px 10px; 
 }
 
 
@@ -18,20 +21,17 @@
 
 .box-bottom {
 	margin-top: 10px;
-	display: flex;
-	
-    
+	display: flex;   
 }
 .box-bottom img {
-	width: 100%;
-    
+	width: 100%;  
 }
 
 
 /*Summary*/
 .summary {
 	text-align: center;
-    background-color: #a9a9a9;
+    
     
 }
 .summary p {
@@ -51,7 +51,7 @@
 /*Details*/
 .detail {
     margin-top: 20px;
-    background-color: #808080;
+    
 }
 h3 {
 	font-size: 1.25em;
