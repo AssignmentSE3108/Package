@@ -1,0 +1,84 @@
+.login__content {
+	width: 60%;
+    min-height: 400px;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+}
+
+.login__company {
+	background-color: #ff4757;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: white;
+}
+
+.row > h2{
+	color: #ff4757;
+}
+
+.login__form{
+	background-color: white;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.login__input{
+	width: 100%;
+	border-radius: 0;
+	border: 1px solid rgb(206, 206, 206);
+	outline: none;
+	transition: all 0.5s ease;
+    border-radius: 30px;
+}
+
+.login__input:focus{
+    border: 1px solid #ff4757;
+	border-radius: 30px;
+}
+
+.btn__login {
+	transition: all 0.5s ease;
+	width: 100%;
+	border-radius: 30px;
+	color: #ff4757;
+	font-weight: 600;
+	background-color: white;
+	border: 1px solid #ff4757;
+}
+
+.btn__login:hover, 
+.btn__login:focus{
+	background-color: #ff4757;
+	color:#fff;
+}
+
+.btn__login-with {
+	transition: all 0.5s ease;
+	width: 40%;
+	border-radius: 30px;
+	font-weight: 600;
+}
+
+.btn__login-facebook {
+    color: white;
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+}
+
+.btn__login-facebook:hover,
+.btn__login-facebook:focus {
+    background-color: white;
+    color: #1877f2;
+}
+
+.btn__login-google {
+    color: white;
+    background-color: rgb(238, 11, 11);
+    border: 1px solid rgb(238, 11, 11);
+}
+
+.btn__login-google:hover,
+.btn__login-google:focus {
+    background-color: white;
+    color: rgb(238, 11, 11);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+<body>
+    <div class="container-fluid pt-5">
+        <div class="row feedback__content m-auto">
+            <div class="col-md-4 feedback__company d-flex justify-content-center align-items-center">
+                <h4>Feedback</h4>
+            </div>
+            <div class="col-md-8 col-xs-12 col-sm-12 feedback__form border-top border-right">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center h-100">
+
+                    <div class="row w-100">
+                        <form control="" class="form-group w-100" method="POST">
+                            <div class="modal-body text-center"> <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+                                <h3>Your opinion matters</h3>
+                                <h5>Help us improve our product? <strong>Give us your feedback.</strong></h5>
+                                <hr>
+                                <h6>Your Rating</h6>
+                            </div>
+
+                            <div class="form-check mb-2 ml-5"> <input name="feedback" type="radio"> <label class="ml-3">Very good</label> </div>
+                            <div class="form-check mb-2 ml-5"> <input name="feedback" type="radio"> <label class="ml-3">Good</label> </div>
+                            <div class="form-check mb-2 ml-5"> <input name="feedback" type="radio"> <label class="ml-3">Mediocre</label> </div>
+                            <div class="form-check mb-2 ml-5"> <input name="feedback" type="radio"> <label class="ml-3">Bad</label> </div>
+                            <div class="form-check mb-2 ml-5"> <input name="feedback" type="radio"> <label class="ml-3">Very Bad</label> </div>
+
+                            <div class="text-center">
+                                <h4>What could we improve?</h4>
+                            </div> 
+                            <div class="row">
+                                <textarea type="textarea" placeholder="Your Message" rows="3" class="feedback__input p-2 pl-3 mb-3 mx-5"></textarea>
+                            </div>
+
+                            <div class="row">
+                                <input type="submit" value="Send" name="submit" class="btn btn__feedback ml-5 mt-3 p-2 btn__feedback-send">
+                                <input type="submit" value="Cancel" name="submit" class="btn btn__feedback ml-3 mt-3 p-2 btn__feedback-cancel">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
