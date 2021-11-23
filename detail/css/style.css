@@ -1,7 +1,7 @@
 body {
-    background-image: url(img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size:cover;
-    
+    font-family: 'Quicksand', sans-serif;
 }
 .row {
     margin: 50px auto;
@@ -16,11 +16,9 @@ body {
 /*Card*/
 .title {
     padding: 0px;
-    
 }
 
 .box-bottom {
-	margin-top: 10px;
 	display: flex;   
 }
 .box-bottom img {
@@ -30,9 +28,7 @@ body {
 
 /*Summary*/
 .summary {
-	text-align: center;
-    
-    
+	text-align: center; 
 }
 .summary p {
 	text-align: justify;
@@ -49,10 +45,7 @@ body {
 
 
 /*Details*/
-.detail {
-    margin-top: 20px;
-    
-}
+.detail 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
