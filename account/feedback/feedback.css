@@ -1,0 +1,68 @@
+.feedback__content {
+	width: 60%;
+    min-height: 400px;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+}
+
+.feedback__company {
+	background-color: #ff4757;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: white;
+}
+
+.row > h2{
+	color: #ff4757;
+}
+
+.feedback__form{
+	background-color: white;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.feedback__input{
+	width: 100%;
+	border-radius: 0;
+	border: 1px solid rgb(206, 206, 206);
+	outline: none;
+	transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.feedback__input:focus{
+    border: 1px solid #ff4757;
+	border-radius: 20px;
+}
+
+.btn__feedback {
+	transition: all 0.5s ease;
+	width: 40%;
+	border-radius: 30px;
+	font-weight: 600;
+}
+
+.btn__feedback-send {
+    color: white;
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+}
+
+.btn__feedback-send:hover,
+.btn__feedback-send:focus {
+    background-color: white;
+    color: #1877f2;
+}
+
+.btn__feedback-cancel {
+    color: white;
+    background-color: rgb(218, 216, 216);
+    border: 1px solid rgb(218, 216, 216);
+}
+
+.btn__feedback-cancel:hover,
+.btn__feedback-cancel:focus {
+    background-color: white;
+    color: rgb(218, 216, 216);
+}

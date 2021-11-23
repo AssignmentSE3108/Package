@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+
+</head>
+<body>
+    
+    <div class="box_reservation py-md-5">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="bg-form col-md-6">
+                    <form class="form_reservation" id="detail_booking_form" method="post" novalidate="novalidate">
+                        <input type="hidden" name="nonce" value="aa67447e5a">
+                        <input type="hidden" name="action" value="add_booking">
+                        <div class="ff-medium fs-36 mb-md-4 mb-3 text-center"><h1>Đặt bàn</h1></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="">Họ tên:</label>
+                                <input type="text" name="cusname" id="cusname" class="form-control mb-2" placeholder="Aa" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="">Email:</label>
+                                <input type="text" name="cusemail" id="cusemail" class="form-control mb-2" placeholder="user@sth.sth" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="">Số điện thoại:</label>
+                                <input type="number" name="cusphone" id="cusphone" class="form-control mb-2" placeholder="+84" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="quantity">Số khách</label>
+                                <input type="number" min="1" max="99" maxlength="2" name="number_people" id="number_people" class="form-control mb-2" placeholder="0" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="">Chi nhánh</label>
+                                <select name="booking_branch" id="booking_branch" class="form-control mb-2" required="">
+                                    <option>--- Chọn chi nhánh</option>
+                                                <option value="#">Herios – Luxury China Kitchen</option>
+                                                <option value="#">Herios – China Kitchen in HCM</option>
+                                                <option value="#">Herios – China Kitchen in HN</option>
+                                                <option value="#">Herios – China Kitchen in DN</option>               
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="">Nhà hàng</label>
+                                <select name="booking_res" id="booking_res" class="form-control mb-2" required="">
+                                    <option>--- Vui lòng chọn chi nhánh trước</option>
+                                                <option value="#">Luxury - Herios Vincom Center Landmark 81</option>
+                                                <option value="#">HCM – Herios Lê Lai</option>
+                                                <option value="#">HCM – Herios Phan Xích Long</option>
+                                                <option value="#">HN - Herios Phan Chu Trinh</option>
+                                                <option value="#">HN - Herios Trần Duy Hưng</option>
+                                                <option value="#">DN - Herios Căn Tin Mplaza</option>
+                                                <option value="#">DN - Herios Crescent Mall</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="">Ngày tháng</label>
+                                <input type="text" id="booking_date" name="booking_date" class="form-control mb-2" placeholder="dd/mm/yyyy" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="">Giờ</label>
+                                <input type="text" id="booking_time" name="booking_time" class="form-control mb-2" placeholder="00:00" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="">Yêu cầu khác</label>
+                                <textarea name="booking_note" id="booking_note" class="form-control mb-2" rows="2" placeholder="Aa"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mt-2">
+                                    <input type="checkbox" name="booking_checkbox" id="booking_checkbox" required=""> <label for="booking_checkbox">Tôi muốn xác nhận đặt bàn qua thư điện tử</label>
+                                </div>
+    
+                                <div class="datban mb-2"> 
+                                    <button onclick="datban()" type="button" class="subscribe btn btn-success btn-block shadow-sm"> Đặt bàn </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/datban.js"></script>
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
