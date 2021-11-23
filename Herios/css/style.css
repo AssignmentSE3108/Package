@@ -1,43 +1,4 @@
 
-body, html {
-  height: 100%;
-}
-.bg {
-  /* The image used */
-  background-image: url("/Herios/images/background.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.navbar {
-  min-height: 80px;
-}
-
-.navbar-brand {
-  padding: 0 15px 0px 35px;
-  height: 80px;
-  line-height: 80px;
-}
-
-.navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 23px;
-  padding: 9px 10px !important; 
-}
-
-@media (min-width: 768px) {
-  .navbar-nav > li > a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 26.5px;
-    padding-bottom: 26.5px;
-    line-height: 27px;
-  }
-}
 html,
 body,
 header,
@@ -45,58 +6,66 @@ header,
   height: 100%;
 }
 
+@import url(//db.onlinewebfonts.com/c/ba69ea70a1f187353aa8dc0ff159cce9?family=Bellfort);
+
 @media (max-width: 740px) {
   html,
   body,
   header,
   .view {
-    height: 1000px;
+    height: 100vh;
   }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-}
-
-.btn .fa {
-  margin-left: 3px;
 }
 
 .top-nav-collapse {
-  background-color: rgba(146, 103, 56, 0.76)  !important;
+  background-color: #78909c !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: rgba(146, 103, 56, 0.76) !important;
+  background: #495FA6 !important;
+}
 
-}
-.nav-item{
-  font-size: 25px;
-  font-family: 'Anton' !important;
-  padding-right: 0.8cm;
-}
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #424f95 !important;
+    background: #495FA6 !important;
   }
 }
 
-.btn-white {
-  color: black !important;
+h1 {
+  letter-spacing: 8px;
 }
 
-h6 {
-  line-height: 1.7;
+h5 {
+  letter-spacing: 3px;
 }
 
-.rgba-gradient {
-  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-} 
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+.nav-item{
+  font-family: 'Bellfort';
+  font-size: 20px;
+  padding-left: 0.8cm;
+}
+.line-break{
+  border: 2px solid red;
+}
+
+.box-content{
+  padding-top: 2cm;
+  height: 10cm;
+}
+a.title{
+  font-family: 'Bellfort';
+  color:#F6AE84;
+  font-size: 50px;
+
+}
+.homepage-title{
+  padding: 1cm;
+}
+.her-story{
+  background-color:#F6AE84 ;
+  
+}
