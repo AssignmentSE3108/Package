@@ -52,13 +52,21 @@ h5 {
   border: 2px solid red;
 }
 
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #F6AE84 !important;
+  border-color: #F6AE84 !important;
+}
+
 .box-content{
   padding-top: 2cm;
   height: 10cm;
+  padding-bottom: 1cm;
 }
 a.title{
   font-family: 'Bellfort';
-  color:#F6AE84;
+  color:#495FA6;
   font-size: 50px;
 
 }
@@ -66,6 +74,54 @@ a.title{
   padding: 1cm;
 }
 .her-story{
-  background-color:#F6AE84 ;
-  
+  padding-bottom: 2cm;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #F6AE84 !important;
+  border-color: #F6AE84 !important;
+}
+div#story{
+  width: 80%;
+  padding: 10px;
+  background-color: #F6AE84;
+  border-radius: 50px 0px;
+}
+p#story-title{
+  text-align: right;
+  padding-right: 0.5cm;
+  padding-top: 1cm;
+  color:#495FA6;
+  font-family: 'Bellfort';
+  font-size: 30px;
+}
+p#story-content{
+  text-align: right;
+  padding-right: 0.5cm;
+  padding-top: 0.2cm;
+  color:#495FA6;
+  font-family: 'SVN-Gilroy XLight';
+  font-size: 12px; 
+}
+/*Footer*/
+.style-footer{
+  font-family: 'Bellfort';
+}
+.fb-ic{
+  padding: 15px;
+}
+.tw-ic{
+  padding: 15px;
+}
+.gplus-ic{
+  padding: 15px;
+}
+.li-ic{
+  padding: 15px;
+}
+.ins-ic{
+  padding: 15px;
+}
+#menu-item{
+
 }
