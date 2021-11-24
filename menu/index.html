@@ -17,7 +17,8 @@
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="menu">
+
     <div class="row">
         <aside class="col-md-2 col-sm-12 option">
             <h2>Menu</h2>
@@ -42,7 +43,7 @@
                     <div class="card-body">
                         <p class="card-text">Súp tiết vịt</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <a class="add-cart cart1" href="#">Add to cart</a>
                     </div>
                 </div>
                 <div class="card col-sm-4 col-5">
@@ -50,7 +51,7 @@
                     <div class="card-body">
                         <p class="card-text">Đậu phụ Tứ Xuyên</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <a class="add-cart cart2" href="#"> Add to cart</a>
                     </div>
                 </div>
                 <div class="card col-sm-4 col-5">
@@ -58,7 +59,7 @@
                     <div class="card-body">
                         <p class="card-text">Lẩu cay Tứ Xuyên</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <a class="add-cart cart3" href="#"> Add to cart</a>
                     </div>
                 </div>
                 <div class="card col-sm-4 col-5">
@@ -66,7 +67,7 @@
                     <div class="card-body">
                         <p class="card-text">Mì Hoành Thánh</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <a class="add-cart cart4" href="#"> Add to cart</a>
                     </div>
                 </div>
                 <div class="card col-sm-4 col-5">
@@ -74,7 +75,7 @@
                     <div class="card-body">
                         <p class="card-text">Sủi Cảo</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary"> Add to Cart </button>
+                        <a class="add-cart cart5" href="#"> Add to cart</a>
                     </div>
                 </div>
                 <div class="card col-sm-4 col-3">
@@ -82,15 +83,15 @@
                     <div class="card-body">
                         <p class="card-text">Vịt Quay Bắc Kinh</p>
                         <p class="card-text">Price: 5<span>&#36;</span></p>
-                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                        <a class="add-cart cart6" href="#">Add to cart</a>
                     </div>
                 </div>
             </div>
             <div class="container page">
                 <ul class="pagination justify-content-end">
                     <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item"><a class="page-link" href="#">Next</a></li>
                 </ul>
@@ -107,88 +108,14 @@
                 </div>
                 <hr/>
             </div>
-
-            <div class="cart-items">
-
-
-                <div class="cart-row">
-                    <div class="row main align-items-center">
-                        <div class="col-2">
-                            <img class="img-fluid" src="images/comtron.jpg" />
-                        </div>
-                        <div class="col">
-                            <div class="row text-muted">Cơm</div>
-                            <div class="row">Cơm Trộn</div>
-                        </div>
-                        <div class="cart-price col">
-                            69000 <span class="close">&#10005;</span>
-                        </div>
-                    </div>
-                </div>
-                <hr class="separate" />
-
-
-                <div class="cart-row">
-                    <div class="row main align-items-center">
-                        <div class="col-2">
-                            <img class="img-fluid" src="images/cake.jpg" />
-                        </div>
-                        <div class="col">
-                            <div class="row text-muted">Bánh</div>
-                            <div class="row">Cake</div>
-                        </div>
-                        <div class="cart-price col">
-                            69000 <span class="close">&#10005;</span>
-                        </div>
-                    </div>
-                </div>
-                <hr class="separate" />
-
-                <div class="cart-row">
-                    <div class="row main align-items-center">
-                        <div class="col-2">
-                            <img class="img-fluid" src="images/hamberger.jpg" />
-                        </div>
-                        <div class="col">
-                            <div class="row text-muted">Fast food</div>
-                            <div class="row">Hamberger</div>
-                        </div>
-                        <div class="cart-price col">
-                            29000 <span class="close">&#10005;</span>
-                        </div>
-                    </div>
-                </div>
-                <hr class="separate" />
-
-                <div class="cart-row">
-                    <div class="row main align-items-center">
-                        <div class="col-2">
-                            <img class="img-fluid" src="images/sinhto.jpg" />
-                        </div>
-                        <div class="col cart-name-food">
-                            <div class="row text-muted">Drink</div>
-                            <div class="row">Sinh tố</div>
-                        </div>
-                        <div class="cart-price col">
-                            99000 <span class="close">&#10005;</span>
-                        </div>
-
-                    </div>
-                </div>
-                <hr class="separate" />
-
-                <p class="total_price">TOTAL PRICE:</p>
-                <div class="price">266000 </div>
-
-                <button type="button" class="btn col btn-success">CHECKOUT</button>
-
-
-
-            </div>
-
+            <a href="cart.html">
+                <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+            </a>
         </div>
+        <!--end cart-->
     </div>
-
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
