@@ -9,6 +9,8 @@ header,
 @import url(//db.onlinewebfonts.com/c/ba69ea70a1f187353aa8dc0ff159cce9?family=Bellfort);
 @import url(//db.onlinewebfonts.com/c/f74aa8714b210bf4e9b898056b9fb509?family=Rigatoni+Sans+Thin);
 @import url(//db.onlinewebfonts.com/c/9e972508ce574c6c42f90006a9b7e18b?family=Dealer+Strikes+Straight);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 @media (max-width: 740px) {
   html,
   body,
@@ -104,6 +106,7 @@ p#story-content{
   font-family: 'SVN-Gilroy XLight';
   font-size: 12px; 
 }
+
 /*Footer*/
 .style-footer{
   font-family: 'Bellfort';
@@ -142,4 +145,11 @@ p#story-content{
   border-left: 2px solid #F6AE84;
   padding-top: 2cm;
   padding-left: 2cm;
+}
+
+.reservation-content{
+  filter: none !important;
+}
+img#myImg {
+  filter:drop-shadow(8px 8px 10px gray);
 }
