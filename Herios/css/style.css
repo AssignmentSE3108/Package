@@ -21,11 +21,11 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: #78909c !important;
+  background-color: #ffffff !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: #495FA6 !important;
+  background-image: url(/Herios/images/header.png) !important;
 }
 
 @media (max-width: 991px) {
