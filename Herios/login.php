@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../bootstrap.min.css">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="/Herios/css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Herios/css/login/login.css">
 </head>
 <body>
     <div class="container-fluid pt-5">

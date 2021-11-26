@@ -54,7 +54,7 @@
                   <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Sign in</a>   
+                  <a href="/Herios/login.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Sign in</a>   
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
@@ -70,11 +70,11 @@
 
         <!-- Full Page Intro -->
         <div class="view" style="background-image: url(/Herios/images/reservation.jpg); background-repeat: no-repeat; background-size:80%; background-position:left;">
-          <div class="box_reservation py-md-5" style="margin-top: 1.2cm;">
+          <div class="box_reservation py-md-5" style="margin-top: 1.2cm; border-radius: 20px;">
             <div class="container">
                 <div class="row justify-content-end">
-                    <div class="bg-form col-md-6">
-                        <form class="form_reservation" id="detail_booking_form" method="post" novalidate="novalidate">
+                    <div class="bg-form col-md-6" style="border-radius: 20px;">
+                        <form class="form_reservation" id="detail_booking_form" method="post" novalidate="novalidate" >
                             <input type="hidden" name="nonce" value="aa67447e5a">
                             <input type="hidden" name="action" value="add_booking">
                             <div class="ff-medium fs-36 mb-md-4 mb-3 text-center"><h1 style="font-family: 'Bellfort';">Reservation</h1></div>
@@ -123,7 +123,7 @@
                                     <input type="text" id="booking_date" name="booking_date" class="form-control mb-2" placeholder="dd/mm/yyyy" required="">
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="">Giờ</label>
+                                    <label for="">Giờ (24h)</label>
                                     <input type="text" id="booking_time" name="booking_time" class="form-control mb-2" placeholder="00:00" required="">
                                 </div>
                                 <div class="col-md-12">
@@ -148,12 +148,9 @@
         </div>
         <!-- Full Page Intro -->
       </header>    
-      
 
-    
-
-<!-- Footer -->
-<footer class="page-footer font-small blue-grey lighten-5 style-footer" style="padding-top: 2cm;">
+      <!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5 style-footer" style="padding-top: 2cm; border-top: 2px solid #F6AE84;margin-top:2cm ;">
 
   <div style="background-color:#1c1c20 ;">
     <div class="container">
@@ -306,13 +303,17 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center text-black-50 py-3" style="color: white;">© 2021 Copyright:
+  <div class="footer-copyright text-center py-3" style="color: white;">© 2021 Copyright:
     <a class="dark-grey-text" href="https://mdbootstrap.com/"> herios.com</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
+
+    
+
+
 
 <script src="js/reservation/reservation/datban.js"></script>
 <script src="js/reservation/reservation/jquery-slim.min.js"></script>
