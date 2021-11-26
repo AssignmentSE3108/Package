@@ -1,3 +1,3 @@
 function datban(){
-    alert("Đặt bàn thành công");
+    alert("You have successfully booked a table");
 }

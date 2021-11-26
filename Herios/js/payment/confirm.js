@@ -1,3 +1,3 @@
 function confirmpayment(){
-    alert("Thanh toán thành công");
+    alert("You have successfully paid");
 }
