@@ -1,10 +1,12 @@
 body{
-    background-color: #808080;
     font-family: 'Quicksand', sans-serif;
 }
-.container{
-    background-color: #a9a9a9;
+.box_reservation{
+    background-image: url("#");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 .bg-form{    
-    background-color: #d3d3d3;
+    background-color: #f5f5f5;
 }
