@@ -1,22 +1,9 @@
-body{
-  font-family: 'Quicksand', sans-serif;
-  background-color: #1c1c20;
-}
-.box_reservation{
-  background-image: url("#");
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;
-}
-.bg-form{    
-  background-color: #faf4e9;
-}
-
 html,
 body,
 header,
 .view {
 height: 100%;
+background-color: rgb(255, 255, 255);
 }
 
 @import url(//db.onlinewebfonts.com/c/ba69ea70a1f187353aa8dc0ff159cce9?family=Bellfort);
