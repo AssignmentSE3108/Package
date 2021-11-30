@@ -31,7 +31,7 @@ background-color: black;
 
 @media (max-width: 991px) {
 .navbar:not(.top-nav-collapse) {
-  background: #495FA6 !important;
+  background: #a12122 !important;
 }
 }
 
@@ -190,4 +190,16 @@ filter:drop-shadow(8px 8px 10px gray);
   align-items: center;
   left: 50%;
   z-index: 999;
+}
+
+.card-deck{
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
 }
