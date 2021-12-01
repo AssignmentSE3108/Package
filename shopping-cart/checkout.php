@@ -26,21 +26,40 @@
   <title>Checkout</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+
+  <link href="//db.onlinewebfonts.com/c/ba69ea70a1f187353aa8dc0ff159cce9?family=Bellfort" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/f74aa8714b210bf4e9b898056b9fb509?family=Rigatoni+Sans+Thin" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/9e972508ce574c6c42f90006a9b7e18b?family=Dealer+Strikes+Straight" rel="stylesheet" type="text/css"/>      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/Herios/css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/Herios/css/delivery/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="index.php"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;Mobile Store</a>
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.php"><i class="fas fa-mobile-alt mr-2"></i>Products</a>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <div class="container">
+            <a class="navbar-brand" href="/index.html">
+              <img class="image-fluid" src="/Herios/images/logo-nobrand2.png" alt="" style="width: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent-7">
+              <ul class="navbar-nav nav">
+              <li class="nav-item">
+          <a class="nav-link active" href="index.php"><i class="fas fa-mobile-alt mr-2"></i>Foods</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fas fa-th-list mr-2"></i>Categories</a>
@@ -51,11 +70,18 @@
         <li class="nav-item">
           <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart"></i> <span id="cart-item" class="badge badge-danger"></span></a>
         </li>
-      </ul>
-    </div>
-  </nav>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <img class="image-fluid" src="/Herios/images/Homepage/VN.png" alt="" style="width: 20px;"> 
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
 
-  <div class="container">
+  <div class="container" style="padding-top:2cm">
     <div class="row justify-content-center">
       <div class="col-lg-6 px-4 pb-4" id="order">
         <h4 class="text-center text-info p-2">Complete your order!</h4>
