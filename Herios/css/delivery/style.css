@@ -217,10 +217,22 @@ img#myImg {
     z-index: 999;
 }
 
+.card-title {
+    font-family: 'Bellfort';
+    font-size: 18px;
+    padding: 1cm;
+}
+
 .card-deck {
     border-radius: 18px;
     background: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-    font-family: 'Bellrock';
+    font-family: 'Bellfort';
     text-align: center;
+    margin-left: 2px !important;
+    margin-bottom: 1cm !important;
+}
+
+.card-img {
+    height: 200px;
 }
